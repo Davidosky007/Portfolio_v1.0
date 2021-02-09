@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body {
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	height: 3161px;
+
+	background: #ffffff;
 }
 
 a {
@@ -15,10 +22,10 @@ a {
 .main_banner {
 	background: url(./images/reel_background.png);
 	position: absolute;
-	width: 1139px;
+	width: 1122px;
 	height: 685px;
 	left: 301px;
-	top: -1px;
+	top: -20px;
 }
 
 .main_text {
@@ -27,7 +34,7 @@ a {
 	height: 100px;
 	left: 280px;
 	top: 40px;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 88px;
@@ -42,7 +49,7 @@ a {
 	left: 280px;
 	top: 174px;
 
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 30px;
@@ -57,7 +64,7 @@ a {
 	left: 280px;
 	top: 272px;
 
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -81,7 +88,7 @@ a {
 		height: 34px;
 		left: 25px;
 		top: 17px;
-		font-family: Roboto;
+		font-family: 'Roboto', sans-serif;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
@@ -128,7 +135,7 @@ a {
 	transition: all 0.3s ease;
 	z-index: 1;
 	color: #fff;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 }
 
 .tooltip:after {
@@ -172,17 +179,19 @@ a {
 	border-radius: 50%;
 	background: #4456fb;
 	.logo {
-		position: absolute;
-		width: 43px;
-		height: 29px;
-		left: 6px;
-		top: -12px;
-		font-family: Poppins;
-		font-style: normal;
-		font-weight: 800;
-		font-size: 28px;
-		line-height: 105.3%;
-		color: #fff;
+		.logo_link {
+			position: absolute;
+			width: 43px;
+			height: 29px;
+			left: 6px;
+			top: 10px;
+			font-family: 'Poppins', sans-serif;
+			font-style: normal;
+			font-weight: 800;
+			font-size: 28px;
+			line-height: 105.3%;
+			color: #fff;
+		}
 	}
 }
 
@@ -193,7 +202,7 @@ a {
 	left: 90px;
 	top: 215px;
 
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -229,4 +238,284 @@ nav.header_navs a:active {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.sub_heading {
+	position: absolute;
+	width: 531px;
+	height: 29px;
+	left: 579px;
+	top: 710px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 105.3%;
+
+	color: #4f5461;
+}
+
+.portfolio_display {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.portfolio_1 {
+	position: absolute;
+	width: 400px;
+	height: 280px;
+	left: 579px;
+	top: 788px;
+
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(./images/Rectangle_25.png);
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	box-sizing: border-box;
+	border-radius: 10px;
+
+	.portfolio_title {
+		position: absolute;
+		width: 65px;
+		height: 21px;
+		left: 22px;
+		top: 28px;
+
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 105.3%;
+		color: #ffffff;
+	}
+}
+
+.tech_1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	color: #e6e9f0;
+
+	position: absolute;
+	width: 89px;
+	height: 40px;
+	left: 22px;
+	top: 70px;
+
+	background: #4f5461;
+	border-radius: 40px;
+}
+
+.tech_2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	color: #e6e9f0;
+
+	position: absolute;
+	width: 110px;
+	height: 40px;
+	left: 136px;
+	top: 70px;
+
+	background: #4f5461;
+	border-radius: 40px;
+}
+
+.tech_3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	color: #e6e9f0;
+
+	position: absolute;
+	width: 98px;
+	height: 40px;
+	left: 266px;
+	top: 70px;
+
+	background: #4f5461;
+	border-radius: 40px;
+}
+
+.desc_link {
+	position: absolute;
+	width: 225px;
+	height: 59px;
+	left: 25px;
+	top: 209px;
+
+	background: #4456fb;
+	border-radius: 60px;
+	.description {
+		position: absolute;
+		width: 182px;
+		height: 19px;
+		left: 20px;
+		top: 23px;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 105.3%;
+		text-align: center;
+		color: #ffffff;
+	}
+}
+
+.pointer {
+	position: absolute;
+	width: 74.89px;
+	height: 56.23px;
+	left: 305px;
+	top: 217px;
+
+	background: url(./images/pionting.png);
+}
+
+.portfolio_2 {
+	position: absolute;
+	width: 400px;
+	height: 280px;
+	left: 944px;
+	top: 788px;
+	margin-left: 50px;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(./images/Rectangle_26.png);
+	border-radius: 10px;
+	.portfolio_title_2 {
+		position: absolute;
+		width: 65px;
+		height: 21px;
+		left: 22px;
+		top: 28px;
+
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 105.3%;
+		color: #ffffff;
+	}
+}
+
+.portfolio_3 {
+	position: absolute;
+	width: 400px;
+	height: 280px;
+	left: 579px;
+	top: 1085px;
+
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(./images/Rectangle_27.png);
+	border-radius: 10px;
+
+	.portfolio_title_3 {
+		position: absolute;
+		width: 65px;
+		height: 21px;
+		left: 22px;
+		top: 28px;
+
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 105.3%;
+		color: #ffffff;
+	}
+}
+
+.portfolio_4 {
+	position: absolute;
+	width: 400px;
+	height: 280px;
+	left: 944px;
+	top: 1085px;
+	margin-left: 50px;
+
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(./images/Rectangle_28.png);
+	border-radius: 10px;
+
+	.portfolio_title_4 {
+		position: absolute;
+		width: 65px;
+		height: 21px;
+		left: 22px;
+		top: 28px;
+
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 105.3%;
+		color: #ffffff;
+	}
+}
+
+.portfolio_5 {
+	position: absolute;
+	width: 400px;
+	height: 280px;
+	left: 579px;
+	top: 1382px;
+
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(./images/Rectangle_29.png);
+	border-radius: 10px;
+
+	.portfolio_title_5 {
+		position: absolute;
+		width: 65px;
+		height: 21px;
+		left: 22px;
+		top: 28px;
+
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 105.3%;
+		color: #ffffff;
+	}
+}
+
+.portfolio_6 {
+	position: absolute;
+	width: 406px;
+	height: 280px;
+	left: 944px;
+	top: 1382px;
+	margin-left: 50px;
+	background: url(./images/Rectangle_30.png);
+	border-radius: 10px;
+
+	.portfolio_title_6 {
+		position: absolute;
+		width: 65px;
+		height: 21px;
+		left: 22px;
+		top: 28px;
+
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 105.3%;
+		color: #ffffff;
+	}
 }
